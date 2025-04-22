@@ -24,7 +24,7 @@ Dawg Facts is a simple iOS app built with SwiftUI that fetches fun facts about d
 - **Purpose:** Teach users cool dog facts using an intuitive UI and clean API integration.  
 - **Tools Used:**
   - SwiftUI
-  - Dog API (https://dogapi.dog)
+  - [Dog API by Kinduff](https://dogapi.dog)
 
 ---
 
@@ -41,7 +41,7 @@ Dawg Facts is a simple iOS app built with SwiftUI that fetches fun facts about d
 ## Challenges + Future Plans
 
 ### Obstacles
-- The Dog API sometimes returns fewer facts than requested
+- The Dog API returned fewer facts than requested due to API structure, so tweaked the `DogFactService.swift` file
 - Had to work around deprecated `.onChange()` modifiers
 - Managing `@Binding` and `@State` correctly through navigation took tweaking
 
@@ -50,6 +50,7 @@ Dawg Facts is a simple iOS app built with SwiftUI that fetches fun facts about d
 - Favorite facts or share functionality
 - Custom animations or transitions
 - Dark mode support
+- Add more structure by using well-known design pattern, such as MVVM
 
 ---
 
