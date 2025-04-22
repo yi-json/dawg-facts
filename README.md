@@ -7,7 +7,7 @@ Dawg Facts is a simple iOS app built with SwiftUI that fetches fun facts about d
 ## Demo
 
 <p align="center">
-  <img src="assets/dawg_facts.gif" alt="App Recording" width="500">
+  <img src="assets/dawg_facts.gif" alt="App Recording" width="250">
 </p>
 
 
