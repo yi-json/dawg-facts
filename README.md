@@ -41,14 +41,15 @@ Dawg Facts is a simple iOS app built with SwiftUI that fetches fun facts about d
 ## Challenges + Future Plans
 
 ### Obstacles
-- The Dog API returned fewer facts than requested due to API structure, so tweaked the `DogFactService.swift` file
+- The Dog API would only return up to 5 facts, so I had to tweak `DogFactService.swift` file such that it would make up to 2 API calls in ase the user asks for 5 < x <= 10 facts
 - Had to work around deprecated `.onChange()` modifiers
 - Managing `@Binding` and `@State` correctly through navigation took tweaking
+- Learned about the `@Published` property wrapper in Swift, which is used inside an `ObservableObject` class to mark properties that should notify SwiftUI views when their values change.
+    * Basically "Hey SwiftUI, keep an eye on these properties. If they change, re-render any views that depend on them."
 
 ### Future Additions
 - Add breed information or group filtering
 - Favorite facts or share functionality
-- Custom animations or transitions
 - Dark mode support
 - Add more structure by using well-known design pattern, such as MVVM
 
