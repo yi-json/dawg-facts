@@ -9,9 +9,6 @@ Dawg Facts is a simple iOS app built with SwiftUI that fetches fun facts about d
 | Home Screen                         | Dog Facts List                     |
 |------------------------------------|------------------------------------|
 | ![HomeView](screenshots/home.png)  | ![FactsView](screenshots/facts.png)|
-
-> *(Add screenshots by saving your simulator screen as PNGs, then drop them into a `screenshots/` folder in your repo.)*
-
 ---
 
 ## 🛠️ Description
